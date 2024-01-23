@@ -17,7 +17,7 @@ options = webdriver.ChromeOptions()
 
 
 def test_selenium():
-    driver = webdriver.Chrome(executable_path=r'C:\Users\Mogilat Igor\selenium_pytest\chromedriver.exe',)
+    driver = webdriver.Chrome(executable_path=r'C:\Users\Mogilat Igor\selenium_pytest\chromedriver.exe',options)
     try:
         driver.get('https://mail.ru/')
 
